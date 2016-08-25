@@ -1,0 +1,117 @@
+body {
+  background-color: #011C26;
+  color: #F4CB64;
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: .1em;
+}
+
+section {
+  display: flex;
+  width: 100vw;
+}
+
+.fire {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  line-height: 4em;
+  margin: 0 0 0 .4em;
+}
+
+.fire span {
+  color: #FF3B37;
+  font-family: 'Unna', serif;
+  font-size: 3.8em;
+}
+
+.water {
+  align-items: flex-end;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 3em;
+  margin: 18em .9em 0 0;
+}
+
+.water-text {
+  color: #9DCFFF;
+  font-family: 'Unna', serif;
+  font-size: 3.8em;
+}
+
+@media (min-width: 500px) {
+  body{
+    letter-spacing: .2em;
+  }
+
+  .fire{
+    font-size: 1.3em;
+    margin: 0 0 0 1em;
+  }
+
+  .fire span {
+    font-size: 4em;
+  }
+
+  .water {
+    font-size: 1.3em;
+    margin: 12em .9em 0 0;
+  }
+
+  .water-text {
+    font-size: 4em;
+  }
+}
+
+
+@media (min-width: 700px) {
+  body{
+    letter-spacing: .3em;
+  }
+
+  .fire{
+    font-size: 1.5em;
+  }
+
+  .fire span {
+    font-size: 5em;
+  }
+
+  .water {
+    font-size: 1.5em;
+    margin: 9em .9em 0 0;
+  }
+
+  .water-text {
+    font-size: 5em;
+    line-height: .9em;
+  }
+}
+
+@media (min-width: 950px) {
+  body{
+    letter-spacing: .3em;
+  }
+
+  .fire {
+    font-size:1.5em;
+  }
+
+  .fire span {
+    font-size: 7em;
+  }
+
+  .water {
+    font-size: 1.5em;
+    margin: 6em .9em 0 0;
+  }
+
+  .water-text {
+    font-size: 7em;
+    line-height: .9em;
+  }
+}
