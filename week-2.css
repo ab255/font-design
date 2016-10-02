@@ -1,0 +1,41 @@
+.week-2 {
+  align-content: center;
+  background-color: #331001;
+  color: #BF5934;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  width: 100vw;
+  height: 680px;
+  justify-content: center;
+}
+
+.sub-text {
+  font-size: 2em;
+}
+
+.sub-text-middle {
+  display: flex;
+  align-self: center;
+}
+
+.sub-text-end {
+  display: flex;
+  align-self: flex-end;
+}
+
+.main-text {
+  align-self: center;
+  color: #7AD1C8;
+  display: flex;
+  font-family: 'Vollkorn', serif;
+  font-size: 10em;
+}
+
+.main-text-1 {
+  margin: -.1em 25% -.3em 0;
+}
+
+.main-text-2 {
+  margin: -.1em 0 -.28em 25%;
+}

@@ -1,0 +1,43 @@
+/*font-family: 'Arvo', serif;*/
+/*font-family: 'Noto Sans', sans-serif;*/
+
+.week-3 {
+  align-items: center;
+  background-color: #002F2F;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arvo', serif;
+  height: 680px;
+  justify-content: center;
+  width: 100vw;
+}
+
+.moderation-1 {
+  color: #8A8668;
+  font-size: 12vw;
+}
+
+.moderation-2 {
+ color: #BDB88E;
+ font-size: 9vw;
+ margin: -6% 0 0 0;
+}
+
+.moderation-3 {
+ color: #E6E2AF;
+ font-size: 7vw;
+ margin: -4% 0 0 0;
+}
+
+.moderation-4 {
+ color: #FFFCF2;
+ font-size: 4vw;
+ margin: -2.5% 0 0 0;
+}
+
+
+.moderation-5 {
+  color: #FFFCF2;
+  font-size: 1vw;
+  font-family: 'Noto Sans', sans-serif;
+}
